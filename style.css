@@ -9,3 +9,8 @@
  License:      GNU GPL v3
  License URI:  https://www.gnu.org/licenses/gpl-3.0.en.html
 */
+
+/* Remove "Posts" header from posts page */
+body.blog header.page-header {
+	display: none;
+}
