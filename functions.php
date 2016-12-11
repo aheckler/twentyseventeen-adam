@@ -8,3 +8,7 @@ function twentyseventeen_adam_theme_styles() {
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_adam_theme_styles' );
 
 /* Add custom PHP below here! */
+
+function twentyseventeen_edit_link() {
+	return '';
+}
