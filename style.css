@@ -14,3 +14,10 @@
 body.blog header.page-header {
 	display: none;
 }
+
+/* Correct top and bottom paddings on Top Posts widget */
+/* https://github.com/Automattic/jetpack/issues/5809 */
+.widget_top-posts ul li {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
