@@ -21,3 +21,8 @@ body.blog header.page-header {
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
 }
+
+/* Correct bottom margin on iframes */
+#content p iframe {
+	margin-bottom: 0;
+}
